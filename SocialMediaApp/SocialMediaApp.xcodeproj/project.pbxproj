@@ -16,6 +16,9 @@
 		E6A8EF1C26348238004D1069 /* ParentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF1B26348238004D1069 /* ParentController.swift */; };
 		E6A8EF22263484EE004D1069 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF20263484EE004D1069 /* ProfileController.swift */; };
 		E6A8EF23263484EE004D1069 /* PostCommentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF21263484EE004D1069 /* PostCommentsController.swift */; };
+		E6A8EF292634857A004D1069 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF262634857A004D1069 /* PostsViewModel.swift */; };
+		E6A8EF2A2634857A004D1069 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF272634857A004D1069 /* ProfileViewModel.swift */; };
+		E6A8EF2B2634857A004D1069 /* PostCommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF282634857A004D1069 /* PostCommentsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		E6A8EF1B26348238004D1069 /* ParentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentController.swift; sourceTree = "<group>"; };
 		E6A8EF20263484EE004D1069 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		E6A8EF21263484EE004D1069 /* PostCommentsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCommentsController.swift; sourceTree = "<group>"; };
+		E6A8EF262634857A004D1069 /* PostsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		E6A8EF272634857A004D1069 /* ProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		E6A8EF282634857A004D1069 /* PostCommentsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCommentsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 		E6A8EF02263481D1004D1069 /* SocialMediaApp */ = {
 			isa = PBXGroup;
 			children = (
+				E6A8EF2526348560004D1069 /* ViewModels */,
 				E6A8EF1A26348213004D1069 /* ViewControllers */,
 				E6A8EF18263481DB004D1069 /* AppDelegate */,
 				E6A8EF09263481D1004D1069 /* Main.storyboard */,
@@ -90,6 +97,16 @@
 				E6A8EF20263484EE004D1069 /* ProfileController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E6A8EF2526348560004D1069 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E6A8EF282634857A004D1069 /* PostCommentsViewModel.swift */,
+				E6A8EF262634857A004D1069 /* PostsViewModel.swift */,
+				E6A8EF272634857A004D1069 /* ProfileViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +185,9 @@
 				E6A8EF06263481D1004D1069 /* SceneDelegate.swift in Sources */,
 				E6A8EF1C26348238004D1069 /* ParentController.swift in Sources */,
 				E6A8EF23263484EE004D1069 /* PostCommentsController.swift in Sources */,
+				E6A8EF2B2634857A004D1069 /* PostCommentsViewModel.swift in Sources */,
+				E6A8EF2A2634857A004D1069 /* ProfileViewModel.swift in Sources */,
+				E6A8EF292634857A004D1069 /* PostsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
