@@ -10,7 +10,6 @@
 		E6A8EF04263481D1004D1069 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF03263481D1004D1069 /* AppDelegate.swift */; };
 		E6A8EF06263481D1004D1069 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF05263481D1004D1069 /* SceneDelegate.swift */; };
 		E6A8EF08263481D1004D1069 /* PostsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF07263481D1004D1069 /* PostsController.swift */; };
-		E6A8EF0B263481D1004D1069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6A8EF09263481D1004D1069 /* Main.storyboard */; };
 		E6A8EF0D263481D2004D1069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6A8EF0C263481D2004D1069 /* Assets.xcassets */; };
 		E6A8EF10263481D2004D1069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6A8EF0E263481D2004D1069 /* LaunchScreen.storyboard */; };
 		E6A8EF1C26348238004D1069 /* ParentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF1B26348238004D1069 /* ParentController.swift */; };
@@ -31,17 +30,18 @@
 		E6A8EF462634864C004D1069 /* PostCommentsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF422634864C004D1069 /* PostCommentsData.swift */; };
 		E6A8EF4B2634867D004D1069 /* GenericDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF492634867D004D1069 /* GenericDataSource.swift */; };
 		E6A8EF4C2634867D004D1069 /* DynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF4A2634867D004D1069 /* DynamicValue.swift */; };
-		E6A8EF5E263486B7004D1069 /* PostCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF4F263486B7004D1069 /* PostCommentCell.swift */; };
-		E6A8EF5F263486B7004D1069 /* UserProfileDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF50263486B7004D1069 /* UserProfileDetailCell.swift */; };
 		E6A8EF60263486B7004D1069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6A8EF53263486B7004D1069 /* Main.storyboard */; };
 		E6A8EF61263486B7004D1069 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF56263486B7004D1069 /* ProfileCell.swift */; };
 		E6A8EF62263486B7004D1069 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6A8EF57263486B7004D1069 /* LoadingCell.xib */; };
 		E6A8EF63263486B7004D1069 /* PostCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF58263486B7004D1069 /* PostCommentCell.swift */; };
 		E6A8EF64263486B7004D1069 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF59263486B7004D1069 /* LoadingCell.swift */; };
 		E6A8EF65263486B7004D1069 /* UserProfileDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF5A263486B7004D1069 /* UserProfileDetailCell.swift */; };
-		E6A8EF66263486B7004D1069 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF5B263486B7004D1069 /* ProfileCell.swift */; };
-		E6A8EF67263486B7004D1069 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6A8EF5C263486B7004D1069 /* LoadingCell.xib */; };
-		E6A8EF68263486B7004D1069 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF5D263486B7004D1069 /* LoadingCell.swift */; };
+		E6A8EF732634876E004D1069 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF6E2634876E004D1069 /* Constants.swift */; };
+		E6A8EF742634876E004D1069 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF6F2634876E004D1069 /* UITableView.swift */; };
+		E6A8EF752634876E004D1069 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF702634876E004D1069 /* Reusable.swift */; };
+		E6A8EF762634876E004D1069 /* AssignmentURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF712634876E004D1069 /* AssignmentURL.swift */; };
+		E6A8EF772634876E004D1069 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF722634876E004D1069 /* Reachability.swift */; };
+		E6A8EF7B26348794004D1069 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8EF7A26348794004D1069 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +49,6 @@
 		E6A8EF03263481D1004D1069 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6A8EF05263481D1004D1069 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E6A8EF07263481D1004D1069 /* PostsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsController.swift; sourceTree = "<group>"; };
-		E6A8EF0A263481D1004D1069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6A8EF0C263481D2004D1069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6A8EF0F263481D2004D1069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6A8EF11263481D2004D1069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,17 +70,18 @@
 		E6A8EF422634864C004D1069 /* PostCommentsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCommentsData.swift; sourceTree = "<group>"; };
 		E6A8EF492634867D004D1069 /* GenericDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericDataSource.swift; sourceTree = "<group>"; };
 		E6A8EF4A2634867D004D1069 /* DynamicValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicValue.swift; sourceTree = "<group>"; };
-		E6A8EF4F263486B7004D1069 /* PostCommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCommentCell.swift; sourceTree = "<group>"; };
-		E6A8EF50263486B7004D1069 /* UserProfileDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileDetailCell.swift; sourceTree = "<group>"; };
 		E6A8EF54263486B7004D1069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6A8EF56263486B7004D1069 /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		E6A8EF57263486B7004D1069 /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 		E6A8EF58263486B7004D1069 /* PostCommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCommentCell.swift; sourceTree = "<group>"; };
 		E6A8EF59263486B7004D1069 /* LoadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
 		E6A8EF5A263486B7004D1069 /* UserProfileDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileDetailCell.swift; sourceTree = "<group>"; };
-		E6A8EF5B263486B7004D1069 /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
-		E6A8EF5C263486B7004D1069 /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
-		E6A8EF5D263486B7004D1069 /* LoadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		E6A8EF6E2634876E004D1069 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E6A8EF6F2634876E004D1069 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		E6A8EF702634876E004D1069 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		E6A8EF712634876E004D1069 /* AssignmentURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentURL.swift; sourceTree = "<group>"; };
+		E6A8EF722634876E004D1069 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		E6A8EF7A26348794004D1069 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +114,10 @@
 		E6A8EF02263481D1004D1069 /* SocialMediaApp */ = {
 			isa = PBXGroup;
 			children = (
-				E6A8EF4E2634869E004D1069 /* Views */,
+				E6A8EF7D2634879B004D1069 /* ServiceManger */,
+				E6A8EF6D26348757004D1069 /* Helpers */,
 				E6A8EF482634865F004D1069 /* GenericDatasource */,
+				E6A8EF4E2634869E004D1069 /* Views */,
 				E6A8EF2D263485C6004D1069 /* Models */,
 				E6A8EF2526348560004D1069 /* ViewModels */,
 				E6A8EF1A26348213004D1069 /* ViewControllers */,
@@ -210,16 +212,6 @@
 		E6A8EF4E2634869E004D1069 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E6A8EF6B263486D8004D1069 /* StoryBoard */,
-				E6A8EF6A263486C2004D1069 /* CustomCells */,
-				E6A8EF51263486B7004D1069 /* Views */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		E6A8EF51263486B7004D1069 /* Views */ = {
-			isa = PBXGroup;
-			children = (
 				E6A8EF52263486B7004D1069 /* StoaryBoard */,
 				E6A8EF55263486B7004D1069 /* CustomCells */,
 			);
@@ -243,27 +235,28 @@
 				E6A8EF59263486B7004D1069 /* LoadingCell.swift */,
 				E6A8EF5A263486B7004D1069 /* UserProfileDetailCell.swift */,
 			);
-			path = CustomCells;
+			name = CustomCells;
+			path = Views/CustomCells;
 			sourceTree = "<group>";
 		};
-		E6A8EF6A263486C2004D1069 /* CustomCells */ = {
+		E6A8EF6D26348757004D1069 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				E6A8EF5D263486B7004D1069 /* LoadingCell.swift */,
-				E6A8EF5C263486B7004D1069 /* LoadingCell.xib */,
-				E6A8EF4F263486B7004D1069 /* PostCommentCell.swift */,
-				E6A8EF5B263486B7004D1069 /* ProfileCell.swift */,
-				E6A8EF50263486B7004D1069 /* UserProfileDetailCell.swift */,
+				E6A8EF712634876E004D1069 /* AssignmentURL.swift */,
+				E6A8EF6E2634876E004D1069 /* Constants.swift */,
+				E6A8EF722634876E004D1069 /* Reachability.swift */,
+				E6A8EF702634876E004D1069 /* Reusable.swift */,
+				E6A8EF6F2634876E004D1069 /* UITableView.swift */,
 			);
-			path = CustomCells;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
-		E6A8EF6B263486D8004D1069 /* StoryBoard */ = {
+		E6A8EF7D2634879B004D1069 /* ServiceManger */ = {
 			isa = PBXGroup;
 			children = (
-				E6A8EF09263481D1004D1069 /* Main.storyboard */,
+				E6A8EF7A26348794004D1069 /* Service.swift */,
 			);
-			path = StoryBoard;
+			path = ServiceManger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,8 +318,6 @@
 			files = (
 				E6A8EF10263481D2004D1069 /* LaunchScreen.storyboard in Resources */,
 				E6A8EF0D263481D2004D1069 /* Assets.xcassets in Resources */,
-				E6A8EF67263486B7004D1069 /* LoadingCell.xib in Resources */,
-				E6A8EF0B263481D1004D1069 /* Main.storyboard in Resources */,
 				E6A8EF62263486B7004D1069 /* LoadingCell.xib in Resources */,
 				E6A8EF60263486B7004D1069 /* Main.storyboard in Resources */,
 			);
@@ -344,7 +335,10 @@
 				E6A8EF22263484EE004D1069 /* ProfileController.swift in Sources */,
 				E6A8EF08263481D1004D1069 /* PostsController.swift in Sources */,
 				E6A8EF04263481D1004D1069 /* AppDelegate.swift in Sources */,
+				E6A8EF732634876E004D1069 /* Constants.swift in Sources */,
+				E6A8EF772634876E004D1069 /* Reachability.swift in Sources */,
 				E6A8EF31263485F7004D1069 /* ProfileData.swift in Sources */,
+				E6A8EF742634876E004D1069 /* UITableView.swift in Sources */,
 				E6A8EF442634864C004D1069 /* PostCommentsMeta.swift in Sources */,
 				E6A8EF32263485F7004D1069 /* ProfileBaseData.swift in Sources */,
 				E6A8EF452634864C004D1069 /* PostComments.swift in Sources */,
@@ -352,19 +346,18 @@
 				E6A8EF3A26348629004D1069 /* Posts.swift in Sources */,
 				E6A8EF4B2634867D004D1069 /* GenericDataSource.swift in Sources */,
 				E6A8EF3B26348629004D1069 /* PostsMeta.swift in Sources */,
-				E6A8EF66263486B7004D1069 /* ProfileCell.swift in Sources */,
 				E6A8EF06263481D1004D1069 /* SceneDelegate.swift in Sources */,
 				E6A8EF4C2634867D004D1069 /* DynamicValue.swift in Sources */,
-				E6A8EF5F263486B7004D1069 /* UserProfileDetailCell.swift in Sources */,
-				E6A8EF68263486B7004D1069 /* LoadingCell.swift in Sources */,
 				E6A8EF1C26348238004D1069 /* ParentController.swift in Sources */,
+				E6A8EF7B26348794004D1069 /* Service.swift in Sources */,
+				E6A8EF762634876E004D1069 /* AssignmentURL.swift in Sources */,
 				E6A8EF23263484EE004D1069 /* PostCommentsController.swift in Sources */,
 				E6A8EF2B2634857A004D1069 /* PostCommentsViewModel.swift in Sources */,
 				E6A8EF63263486B7004D1069 /* PostCommentCell.swift in Sources */,
 				E6A8EF2A2634857A004D1069 /* ProfileViewModel.swift in Sources */,
 				E6A8EF64263486B7004D1069 /* LoadingCell.swift in Sources */,
 				E6A8EF432634864C004D1069 /* PostCommentsPagination.swift in Sources */,
-				E6A8EF5E263486B7004D1069 /* PostCommentCell.swift in Sources */,
+				E6A8EF752634876E004D1069 /* Reusable.swift in Sources */,
 				E6A8EF61263486B7004D1069 /* ProfileCell.swift in Sources */,
 				E6A8EF292634857A004D1069 /* PostsViewModel.swift in Sources */,
 				E6A8EF3926348629004D1069 /* PostsPagination.swift in Sources */,
@@ -374,14 +367,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E6A8EF09263481D1004D1069 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E6A8EF0A263481D1004D1069 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E6A8EF0E263481D2004D1069 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
