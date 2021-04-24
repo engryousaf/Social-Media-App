@@ -114,9 +114,9 @@
 		E6A8EF02263481D1004D1069 /* SocialMediaApp */ = {
 			isa = PBXGroup;
 			children = (
+				E6A8EF482634865F004D1069 /* GenericDatasource */,
 				E6A8EF7D2634879B004D1069 /* ServiceManger */,
 				E6A8EF6D26348757004D1069 /* Helpers */,
-				E6A8EF482634865F004D1069 /* GenericDatasource */,
 				E6A8EF4E2634869E004D1069 /* Views */,
 				E6A8EF2D263485C6004D1069 /* Models */,
 				E6A8EF2526348560004D1069 /* ViewModels */,
